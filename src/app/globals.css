@@ -4,8 +4,8 @@
   --foreground: #0f172a;
   --background: #ffffff;
   --primary: #0f172a;
-  --accent: #2563eb;
-  --accent-light: #3b82f6;
+  --accent: #0d9488;
+  --accent-blue: #0369a1;
   --muted: #64748b;
   --border: #e2e8f0;
 }
@@ -58,9 +58,9 @@ html {
   animation: float 6s ease-in-out infinite;
 }
 
-/* Gradient text */
+/* Gradient text - Blue to Teal */
 .gradient-text {
-  background: linear-gradient(135deg, #2563eb 0%, #7c3aed 100%);
+  background: linear-gradient(135deg, #0369a1 0%, #0d9488 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -68,18 +68,18 @@ html {
 
 /* Glass effect */
 .glass {
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.85);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
 }
 
 /* Gradient backgrounds */
 .gradient-bg {
-  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+  background: linear-gradient(135deg, #f0fdfa 0%, #ecfeff 50%, #f0f9ff 100%);
 }
 
 .gradient-dark {
-  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  background: linear-gradient(135deg, #0f172a 0%, #134e4a 100%);
 }
 
 /* Card hover effect */
@@ -89,18 +89,18 @@ html {
 
 .card-hover:hover {
   transform: translateY(-4px);
-  box-shadow: 0 20px 40px -12px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 20px 40px -12px rgba(13, 148, 136, 0.2);
 }
 
-/* Button styles */
+/* Button styles - Blue to Teal gradient */
 .btn-primary {
-  background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+  background: linear-gradient(135deg, #0369a1 0%, #0d9488 100%);
   transition: all 0.3s ease;
 }
 
 .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 20px -5px rgba(37, 99, 235, 0.4);
+  box-shadow: 0 10px 20px -5px rgba(13, 148, 136, 0.4);
 }
 
 /* Focus styles for accessibility */

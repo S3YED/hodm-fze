@@ -13,7 +13,7 @@ export default function TermsPage() {
       <header className="bg-white border-b border-slate-200">
         <nav className="max-w-4xl mx-auto px-4 sm:px-6 py-4 flex justify-between items-center">
           <Link href="/" className="text-xl font-bold text-slate-900 flex items-center gap-2">
-            <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-blue-600 to-violet-600 flex items-center justify-center text-white text-sm font-bold">H</div>
+            <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-sky-600 to-teal-600 flex items-center justify-center text-white text-sm font-bold">H</div>
             <span>Hodm</span>
           </Link>
           <Link href="/" className="text-slate-600 hover:text-slate-900 transition font-medium">
@@ -139,7 +139,7 @@ export default function TermsPage() {
               <p className="font-semibold text-slate-900">Hodm FZE</p>
               <p>Sharjah Publishing City Free Zone</p>
               <p>Sharjah, United Arab Emirates</p>
-              <p className="mt-2">Email: <a href="mailto:info@hodmfze.com" className="text-blue-600 hover:underline">info@hodmfze.com</a></p>
+              <p className="mt-2">Email: <a href="mailto:info@hodmfze.com" className="text-teal-600 hover:underline">info@hodmfze.com</a></p>
               <p>License No.: 4427736.01</p>
             </div>
           </section>
@@ -153,7 +153,7 @@ export default function TermsPage() {
             © {new Date().getFullYear()} Hodm FZE. All rights reserved.
           </div>
           <div className="flex gap-6 text-sm">
-            <Link href="/terms" className="text-blue-600 font-medium">Terms of Service</Link>
+            <Link href="/terms" className="text-teal-600 font-medium">Terms of Service</Link>
             <Link href="/privacy" className="text-slate-600 hover:text-slate-900 transition">Privacy Policy</Link>
           </div>
         </div>

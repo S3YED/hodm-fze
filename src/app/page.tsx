@@ -13,7 +13,7 @@ const services = [
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
       </svg>
     ),
-    gradient: "from-blue-500 to-cyan-500",
+    gradient: "from-teal-500 to-emerald-500",
     image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
   },
   {
@@ -24,7 +24,7 @@ const services = [
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
       </svg>
     ),
-    gradient: "from-violet-500 to-purple-500",
+    gradient: "from-sky-500 to-cyan-500",
     image: "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=800&q=80",
   },
   {
@@ -74,7 +74,7 @@ export default function Home() {
       <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? "glass border-b border-slate-200/50 shadow-sm" : "bg-transparent"}`}>
         <nav className="max-w-6xl mx-auto px-4 sm:px-6 py-4 flex justify-between items-center">
           <a href="#" className="text-xl sm:text-2xl font-bold text-slate-900 flex items-center gap-2">
-            <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-blue-600 to-violet-600 flex items-center justify-center text-white text-sm font-bold">H</div>
+            <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-sky-600 to-teal-600 flex items-center justify-center text-white text-sm font-bold">H</div>
             <span>Hodm</span>
           </a>
           
@@ -144,7 +144,7 @@ export default function Home() {
               </div>
             </div>
             <div className="relative hidden lg:block">
-              <div className="absolute -top-8 -right-8 w-72 h-72 bg-gradient-to-br from-blue-100 to-violet-100 rounded-full blur-3xl opacity-60"></div>
+              <div className="absolute -top-8 -right-8 w-72 h-72 bg-gradient-to-br from-sky-100 to-teal-100 rounded-full blur-3xl opacity-60"></div>
               <div className="relative rounded-3xl overflow-hidden shadow-2xl">
                 <Image
                   src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=800&q=80"
@@ -361,7 +361,7 @@ export default function Home() {
                   </div>
                   <div>
                     <div className="text-slate-400 text-sm">Email</div>
-                    <a href="mailto:info@hodmfze.com" className="text-white hover:text-blue-400 transition font-medium">
+                    <a href="mailto:info@hodmfze.com" className="text-white hover:text-teal-400 transition font-medium">
                       info@hodmfze.com
                     </a>
                   </div>
@@ -409,7 +409,7 @@ export default function Home() {
                       required
                       value={formData.name}
                       onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                      className="w-full px-4 py-3.5 rounded-xl border border-slate-200 focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition"
+                      className="w-full px-4 py-3.5 rounded-xl border border-slate-200 focus:ring-2 focus:ring-teal-500 focus:border-transparent outline-none transition"
                       placeholder="Your name"
                     />
                   </div>
@@ -422,7 +422,7 @@ export default function Home() {
                       required
                       value={formData.email}
                       onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                      className="w-full px-4 py-3.5 rounded-xl border border-slate-200 focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition"
+                      className="w-full px-4 py-3.5 rounded-xl border border-slate-200 focus:ring-2 focus:ring-teal-500 focus:border-transparent outline-none transition"
                       placeholder="you@company.com"
                     />
                   </div>
@@ -435,7 +435,7 @@ export default function Home() {
                       rows={4}
                       value={formData.message}
                       onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                      className="w-full px-4 py-3.5 rounded-xl border border-slate-200 focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none resize-none transition"
+                      className="w-full px-4 py-3.5 rounded-xl border border-slate-200 focus:ring-2 focus:ring-teal-500 focus:border-transparent outline-none resize-none transition"
                       placeholder="Tell us about your project..."
                     />
                   </div>
@@ -457,7 +457,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             <div className="flex items-center gap-2">
-              <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-blue-600 to-violet-600 flex items-center justify-center text-white text-sm font-bold">H</div>
+              <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-sky-600 to-teal-600 flex items-center justify-center text-white text-sm font-bold">H</div>
               <span className="font-bold text-slate-900">Hodm FZE</span>
             </div>
             <div className="flex flex-wrap justify-center gap-6 text-sm">
