@@ -184,7 +184,7 @@ export default function PrivacyPage() {
               <p className="font-semibold text-slate-900">Hodm FZE</p>
               <p>Sharjah Publishing City Free Zone</p>
               <p>Sharjah, United Arab Emirates</p>
-              <p className="mt-2">Email: <a href="mailto:info@hodmfze.com" className="text-teal-600 hover:underline">info@hodmfze.com</a></p>
+              <p className="mt-2">Email: <a href="mailto:info@hodm.ae" className="text-teal-600 hover:underline">info@hodm.ae</a></p>
               <p>License No.: 4427736.01</p>
             </div>
           </section>

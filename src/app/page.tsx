@@ -406,8 +406,8 @@ export default function Home() {
                   </div>
                   <div>
                     <div className="text-slate-400 text-sm">Email</div>
-                    <a href="mailto:info@hodmfze.com" className="text-white hover:text-teal-400 transition font-medium">
-                      info@hodmfze.com
+                    <a href="mailto:info@hodm.ae" className="text-white hover:text-teal-400 transition font-medium">
+                      info@hodm.ae
                     </a>
                   </div>
                 </div>
